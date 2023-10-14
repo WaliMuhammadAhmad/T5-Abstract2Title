@@ -1,6 +1,6 @@
 # Abstract2Title T5 Model Fine-tuning
 
-![Colab Banner](colab_banner.png)
+![Colab](https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png)
 
 This repository is dedicated to fine-tuning the T5 model for the specific task of generating titles for given abstracts. It's a powerful tool for automatic summarization and content generation.
 
@@ -10,66 +10,20 @@ This repository consists of the following components:
 
 - **Google Colab Notebook:** An interactive Colab notebook that guides you through the fine-tuning process. It's designed to make the process as smooth as possible.
 
-- **Dataset:** The dataset used for fine-tuning, provided in both training and testing sets in CSV format. This dataset forms the basis for training and evaluation.
+- **Dataset:** The dataset used for fine-tuning, is provided in both training and testing sets in CSV format. This dataset forms the basis for training and evaluation.
 
-- **Python file:** This repo also contains the Python file of the Notebook to run this on local machine with virtual environment. If you want to run this on local machine then you have to install some dependencies in your virtual environment. 
+- **Python file:** This repo also contains the Python file of the Notebook to run this on the local machine with virtual environment. If you want to run this on a local machine then you have to install some dependencies in your virtual environment. The dependencies are down below:
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js">
-
-```bash
-pip install transformers
-<button class="copy-button" data-clipboard-text="pip install transformers">Copy</button>
-
-go
-Copy code
-
-```bash
-pip install sentencepiece
-<button class="copy-button" data-clipboard-text="pip install sentencepiece">Copy</button>
-
-go
-Copy code
-
-```bash
-pip install shutil
-<button class="copy-button" data-clipboard-text="pip install shutil">Copy</button>
-
-go
-Copy code
-
-```bash
-pip install nltk
-<button class="copy-button" data-clipboard-text="pip install nltk">Copy</button>
-
-go
-Copy code
-
-```bash
-pip install os
-<button class="copy-button" data-clipboard-text="pip install os">Copy</button>
-
-php
-Copy code
-</script>
-<script>
-  var copyButtons = new ClipboardJS('.copy-button');
-
-  copyButtons.on('success', function(e) {
-    e.clearSelection();
-    alert('Command copied to clipboard: ' + e.text);
-  });
-</script>
-
-
+-  
 
 ## 🚀 Getting Started
 
 To fine-tune the T5 model using this repository and the provided dataset, follow these steps:
 
-1. **Open the Google Colab Notebook:** Click the "Open in Colab" button at the top of the README. This will open the Colab notebook in your web browser.
+1. **Open the Google Colab Notebook:** Click the <a href="https://colab.research.google.com/drive/1tHGnpP2n83f0od_aOfoGoQsjGxXLxQfY">Open in Colab</a> button and this will open this notebook in colab.
 
-2. **Run the Notebook:** Follow the instructions provided within the Colab notebook. It will guide you through the steps of fine-tuning the T5 model.
+2. **Or clone this repo:** If this does not work then simply clone this repo in google colab.
+
+3. **Run the Notebook:** Follow the instructions provided within the Colab notebook. It will guide you through the steps of fine-tuning the T5 model.
 
 Happy fine-tuning and text generation!
-
-![Colab](colab.png)
